@@ -1,0 +1,115 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: #EAECEF;
+}
+
+.login-content {
+    border-radius: 0.5rem;
+    max-width: 36rem;
+    display: grid;
+    grid-template-columns: 34% 66%;
+    background-image: url("../../public/assets/image/hero-2.png");
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.login-banner {
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #6d28d9, #8657f5, rgba(109, 40, 217, 0.6));
+    opacity: 0.9;
+    padding: 2rem 1.5rem;
+    cursor: pointer;
+}
+
+.login-banner .back-login {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.8;
+}
+
+.login-banner .back-login:hover {
+    opacity: 1;
+}
+
+.login-banner .back-login:hover>i {
+    transform: translateX(-2px);
+    transition: all 0.5s linear;
+}
+
+.login-banner .back-login i {
+    font-size: 0.9rem;
+}
+
+.login-banner h2 {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: var(--color-white);
+}
+
+.login-banner span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.1rem;
+}
+
+.login-banner span>strong {
+    color: var(--color-white);
+}
+
+.login-option {
+    padding: 2rem 1.5rem;
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-option--details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-white);
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+}
+
+.login-option--details:hover {
+    outline: 1px solid var(--color-purple);
+    cursor: pointer;
+}
+
+.login-option--details:hover>i {
+    transform: translateX(3px);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-option--details>div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-Inter);
+    font-weight: 500;
+}
+
+.login-option--details>div>i {
+    color: rgb(1, 64, 255);
+    font-size: 1.25rem;
+}

@@ -1,0 +1,88 @@
+/* impoprt */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    /* font-family */
+    --font-Inter: 'Inter';
+
+    /* color */
+    --color-black: #000000;
+    --color-primary: #FBBF24;
+    --color-secondary: #000000B3;
+    --color-purple: #9333EA;
+    --color-primary: #005978;
+    --color-white: #FFF;
+
+    /* font-size */
+    --font-size-36: 36px;
+    --font-size-24: 24px;
+    --font-size-18: 18px;
+    --font-size-16: 16px;
+    --font-size-14: 14px;
+    --font-size-12: 12px;
+    --font-size-10: 10px;
+    --font-size-8: 8px;
+
+    /* width */
+    --paneleft-width: 8rem;
+}
+
+#user_list_wrapper,
+#sub-category_wrapper,
+#post_wrapper,
+#category_wrapper {
+    width: 100%;
+    padding-top: 10px;
+}
+.btn-add{
+    position: absolute !important;
+    left: 170px;
+    top: 6px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.text-hover:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: blue;
+}
+
+.jodit-status-bar.jodit-status-bar_resize-handle_true{
+    display: none;
+}
+.min-height-25 td{
+    min-height: 25px;
+}
+
+.lable-select-image{
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.85rem;
+    cursor: pointer;
+}
+
+.lable-select-image:hover{
+    opacity: 0.8;
+}
+
+.valid-file-custom{
+    color: #dc3545;
+    font-size: 80%;
+    margin-top: 0.25rem;
+    width: 100%;
+}
+
+.img-preview-wrapper{
+ max-width: 100px;
+ min-height: 100px;
+ overflow: hidden;
+}
+
+.img-preview-wrapper img{
+    object-fit:contain;
+}
+
+.dataTables_empty{
+    display: none;
+}

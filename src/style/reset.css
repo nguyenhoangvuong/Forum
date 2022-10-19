@@ -1,0 +1,85 @@
+/* reset css */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontInter);
+}
+
+body {
+    line-height: 1.5;
+    font-size: var(--font-size-16);
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input[type="checkbox"],
+button,
+textarea,
+select {
+    outline: none;
+    cursor: pointer;
+}
+
+input{
+    outline:none;
+}
+
+option{
+    cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black)
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+.btn:disabled,
+button:disabled{
+    opacity: 0.6;
+    cursor: not-allowed !important;
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+
+
+button:focus, button:active{
+    outline: none !important;
+    border: none !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

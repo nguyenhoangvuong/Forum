@@ -1,0 +1,45 @@
+.table-header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.table-header-container > div:first-child{
+    display: flex;
+    gap: 10px;
+}
+
+.select-subcate{
+    position: unset !important;
+}
+
+#post_wrapper{
+    padding: 0 !important;
+}
+
+.pagination-post{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pagination-post span{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 4px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.pagination-post span:hover{
+    background-color:#ddd;
+}
+
+.active-page-post{
+    background-color:#ddd;
+}

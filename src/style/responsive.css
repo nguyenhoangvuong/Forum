@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1023px){
+    .mobile {
+        display: block;
+    }
+
+    .nav-bar {
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        width: unset !important;
+    }
+
+    .pane-left--bottom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        flex-direction: row-reverse;
+        padding: 0.5rem;
+        width: unset;
+    }
+
+    
+
+    .pane-left--bottom-section {
+        margin: unset !important; 
+        border:unset !important;
+        flex-direction: row-reverse;
+    }
+
+    .logo a {
+        flex-direction: row !important;
+    }
+        
+    .nav-main {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--color-white);
+    }
+
+    .pane-left {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #faf6f0 !important;
+        height: 44px !important;
+        display: flex;
+        flex-direction: row !important;
+        width: unset !important;
+    }
+
+    .btn-switch-theme {
+        background-color: #eeece5 !important;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .btn-switch-lang {
+        background-color: #eeece5 !important;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .btn--text {
+        font-size: 14px;
+    }
+
+    .btn-login {
+        background-color: #eeece5 !important;
+        border-radius: 5px; 
+    }
+
+    .logo-wrapper {
+        margin-left: 10px;
+    }
+
+    .logo--text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+} 
+
+@media only screen and (max-width: 768px) {
+    .btn-login--text {
+        display: none !important;
+    }
+}

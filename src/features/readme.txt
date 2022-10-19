@@ -1,0 +1,1 @@
+This folder place all features/pages of this app
